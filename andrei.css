@@ -1,0 +1,38 @@
+body, html{
+	 width: 100%;
+  height: 100%;
+  font-family: 'georgia', sans-serif;
+	 background: url(https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?cs=srgb&dl=semi-opened-laptop-computer-turned-on-on-table-2047905.jpg&fm=jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.buffer {
+	height: 10em;
+}
+
+hr{
+	border-color:  red;
+	border-width: 3px;
+	max-width: 70px;
+}
+
+.btn-secondary {
+	background-color: red;
+	border-color: red;
+	border-radius: 300px;
+	}
+
+section {
+	transition: all 1s;
+}
+section: hover {
+	transform: scale(2.1);
+	color: black;
+}
+	h1 {
+	color: white;
+	font-size: 2em;
+	font-family: 'georgia', sans-serif;
+}
